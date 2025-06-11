@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.car-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  color: white;
+}
+.custom-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.custom-footer a {
+  color: #00d0ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+#weekly-blog {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#weekly-blog h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#weekly-blog p {
+  font-size: 14px;
+  color: #777;
+}
+
+#weekly-blog #blog-content {
+  font-size: 16px;
+  color: #555;
+}
